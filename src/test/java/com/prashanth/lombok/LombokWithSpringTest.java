@@ -1,5 +1,6 @@
 package com.prashanth.lombok;
 
+import com.prashanth.lombok.model.Person;
 import com.prashanth.lombok.model.Users;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -19,5 +20,16 @@ public class LombokWithSpringTest {
         Users users = new Users();
         users.setFirstName("first_name_01");
         assertEquals("first_name_01", users.getFirstName());
+    }
+
+    @Test
+    void testEquals() {
+        Person person = new Person();
+        person.setFullName("fullName");
+
+        Person person01 = new Person();
+        person01.setFullName("fullName");
+
+        assertEquals(true, person.equals(person01));
     }
 }
