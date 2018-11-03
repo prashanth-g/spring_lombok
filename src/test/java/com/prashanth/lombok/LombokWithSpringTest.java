@@ -32,4 +32,10 @@ public class LombokWithSpringTest {
 
         assertEquals(true, person.equals(person01));
     }
+
+    @Test
+    void testLogger() {
+        LombokLoggers lombokLoggers = new LombokLoggers();
+        lombokLoggers.loggerSlf4j();
+    }
 }
