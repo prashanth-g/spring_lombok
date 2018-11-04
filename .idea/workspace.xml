@@ -78,25 +78,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="18" />
-          <entry key="java" value="929" />
+          <entry key="java" value="1076" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="18" />
-          <entry key="JAVA" value="929" />
+          <entry key="JAVA" value="1076" />
         </counts>
       </usages-collector>
     </session>
@@ -163,10 +163,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/prashanth/lombok/LombokWithSpringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="48" column="91" selection-start-line="48" selection-start-column="91" selection-end-line="48" selection-end-column="91" />
+            <state relative-caret-position="521">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1609#1610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,6 +184,20 @@
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#338#339#0" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/prashanth/lombok/LombokNonNull.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -643,6 +658,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/prashanth/lombok/model/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/prashanth/lombok/LombokLoggers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/prashanth/lombok/LombokSneakyThrows.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/prashanth/lombok/LombokNonNull.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/prashanth/lombok/LombokWithSpringTest.java" />
       </list>
     </option>
@@ -727,7 +743,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541386022465" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541387421526" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -746,24 +762,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.prashanth.lombok in spring.lombok_test">
+  <component name="RunManager" selected="JUnit.LombokWithSpringTest.testNonNull">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LombokWithSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring.lombok_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.prashanth.lombok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.prashanth.lombok" />
-      <option name="MAIN_CLASS_NAME" value="com.prashanth.lombok.LombokWithSpringTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -779,6 +780,23 @@
       <option name="PACKAGE_NAME" value="com.prashanth.lombok" />
       <option name="MAIN_CLASS_NAME" value="com.prashanth.lombok.LombokWithSpringTest" />
       <option name="METHOD_NAME" value="testLogger" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LombokWithSpringTest.testNonNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.lombok_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.prashanth.lombok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.prashanth.lombok" />
+      <option name="MAIN_CLASS_NAME" value="com.prashanth.lombok.LombokWithSpringTest" />
+      <option name="METHOD_NAME" value="testNonNull" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -849,19 +867,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LombokWithSpringTest" />
       <item itemvalue="JUnit.LombokWithSpringTest.testLogger" />
       <item itemvalue="JUnit.com.prashanth.lombok in spring.lombok_test" />
       <item itemvalue="JUnit.LombokWithSpringTest.testSneakyThrows" />
       <item itemvalue="JUnit.LombokWithSpringTest.testSneakyThrowsFile" />
+      <item itemvalue="JUnit.LombokWithSpringTest.testNonNull" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LombokWithSpringTest.testNonNull" />
         <item itemvalue="JUnit.com.prashanth.lombok in spring.lombok_test" />
         <item itemvalue="JUnit.LombokWithSpringTest.testSneakyThrowsFile" />
         <item itemvalue="JUnit.LombokWithSpringTest.testSneakyThrows" />
         <item itemvalue="JUnit.LombokWithSpringTest.testLogger" />
-        <item itemvalue="JUnit.LombokWithSpringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -879,21 +897,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LombokWithSpringTest_testEquals - 2018.11.02 at 17h 58m 13s.xml">
-      <configuration name="LombokWithSpringTest.testEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LombokWithSpringTest_testEquals - 2018.11.02 at 17h 59m 36s.xml">
-      <configuration name="LombokWithSpringTest.testEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LombokWithSpringTest_testEquals - 2018.11.02 at 18h 00m 28s.xml">
-      <configuration name="LombokWithSpringTest.testEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LombokWithSpringTest - 2018.11.02 at 18h 00m 55s.xml">
-      <configuration name="LombokWithSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LombokWithSpringTest_testLogger - 2018.11.05 at 07h 19m 28s.xml">
-      <configuration name="LombokWithSpringTest.testLogger" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_prashanth_lombok_in_spring_lombok_test - 2018.11.05 at 07h 19m 39s.xml">
       <configuration name="com.prashanth.lombok in spring.lombok_test" configurationId="JUnit" />
     </history-entry>
@@ -908,6 +911,21 @@
     </history-entry>
     <history-entry file="com_prashanth_lombok_in_spring_lombok_test - 2018.11.05 at 08h 12m 20s.xml">
       <configuration name="com.prashanth.lombok in spring.lombok_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LombokWithSpringTest_testSneakyThrowsFile - 2018.11.05 at 08h 17m 10s.xml">
+      <configuration name="LombokWithSpringTest.testSneakyThrowsFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_prashanth_lombok_in_spring_lombok_test - 2018.11.05 at 08h 17m 26s.xml">
+      <configuration name="com.prashanth.lombok in spring.lombok_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LombokWithSpringTest_testNonNull - 2018.11.05 at 08h 38m 08s.xml">
+      <configuration name="LombokWithSpringTest.testNonNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LombokWithSpringTest_testNonNull - 2018.11.05 at 08h 39m 34s.xml">
+      <configuration name="LombokWithSpringTest.testNonNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LombokWithSpringTest_testNonNull - 2018.11.05 at 08h 40m 12s.xml">
+      <configuration name="LombokWithSpringTest.testNonNull" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1031,12 +1049,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/prashanth/lombok/LombokWithSpringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/prashanth/lombok/LombokNonNull.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="48" column="91" selection-start-line="48" selection-start-column="91" selection-end-line="48" selection-end-column="91" />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/prashanth/lombok/LombokWithSpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
           </folding>
         </state>
       </provider>

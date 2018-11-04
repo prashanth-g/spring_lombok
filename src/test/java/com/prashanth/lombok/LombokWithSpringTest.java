@@ -48,4 +48,9 @@ public class LombokWithSpringTest {
     void testSneakyThrowsFile() {
         assertThrows(FileNotFoundException.class, () -> new LombokSneakyThrows().readFile());
     }
+
+    @Test
+    void testNonNull() {
+        assertThrows(NullPointerException.class, () -> new LombokNonNull().nonNullExperiment());
+    }
 }
