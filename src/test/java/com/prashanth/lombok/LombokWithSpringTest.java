@@ -2,15 +2,15 @@ package com.prashanth.lombok;
 
 import com.prashanth.lombok.model.Person;
 import com.prashanth.lombok.model.Users;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import org.springframework.test.context.junit4.SpringRunner;
+
+import java.io.FileNotFoundException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
@@ -37,5 +37,15 @@ public class LombokWithSpringTest {
     void testLogger() {
         LombokLoggers lombokLoggers = new LombokLoggers();
         lombokLoggers.loggerSlf4j();
+    }
+
+    @Test
+    void testSneakyThrowsRunnable() {
+        assertThrows(InterruptedException.class, () -> new LombokSneakyThrows().new SneakyRunnable().run());
+    }
+
+    @Test
+    void testSneakyThrowsFile() {
+        assertThrows(FileNotFoundException.class, () -> new LombokSneakyThrows().readFile());
     }
 }
